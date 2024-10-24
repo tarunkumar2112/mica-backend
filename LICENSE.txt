@@ -1,0 +1,5 @@
+### Instructions for Testing with Postman:
+- For each endpoint (GET, POST, PUT, DELETE), follow the example requests and responses provided.
+- Make sure to test the endpoints using the base URL `http://localhost:5000/api/items`.
+
+Now you can download the above `README.md` file to include in your project! Let me know if you'd like any further modifications.

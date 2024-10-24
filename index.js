@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Basic route
 app.get('/', (req, res) => {
-    res.send('Custom API is running!');
+    res.send('API is Running, Please add some Endpoints to Test, ALl the ');
 });
 
 // Import routes
@@ -18,4 +18,5 @@ app.use('/api/items', itemRoutes);
 // Start the server
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
+    console.log('This is the Backend for the Mica-Platform!!')
 });
